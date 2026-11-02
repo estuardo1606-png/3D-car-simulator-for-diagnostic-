@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom dark automotive UI scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38bdf8;
+}
+
+/* Toyota OEM Bicolor wire tracer patterns */
+.wire-stripe {
+  background-size: 10px 10px;
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 2.5px, currentColor 2.5px, currentColor 5px);
+}
+
+/* Oscilloscope CRT display styling */
+.crt-screen {
+  background: radial-gradient(circle at 50% 50%, #030a16 0%, #010409 100%);
+  box-shadow: inset 0 0 25px rgba(2, 132, 199, 0.2), 0 0 15px rgba(2, 132, 199, 0.08);
+}

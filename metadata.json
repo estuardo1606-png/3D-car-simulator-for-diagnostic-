@@ -1,0 +1,6 @@
+{
+  "name": "AeroVolt 3D Engine Diagnostics",
+  "description": "Real-time 3D diagnostic suite for automotive engine electrical systems, harness routing, live oscilloscope telemetry, and pinout verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
